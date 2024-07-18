@@ -1,68 +1,109 @@
 <!-- Go ahead and create the HTML structure of your favourite website. If you don't have a favourite, go ahead and make some stupid-crazy webpage. Focus on the HTML only, as we are focusing on the choice of HTML tags and the lay outing using HTML.
  -->
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafe Day</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to Cafe Day</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title> Cafe Coffee Day | A Lot Can Happen Over Coffee</title>
+     <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+     <header>
+       <nav class="nav">
+         <ul class="ulItems">
+           <img
+             class="logoImage"
+             src="https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/common/logo.png"
+           />
+           <li class="liTag"><a class="anchor" href="#menu">Menu</a></li>
+           <li class="liTag"><a class="anchor" href="#about">About</a></li>
+           <li class="liTag"><a class="anchor" href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+     </header>
+ 
+ <main>
+   <div class="gifSection">
+     <div>
+       <img
+         class="gif-img"
+         src="https://www.cafecoffeeday.com/sites/default/files/What%2527sNew-Open-copy_0.gif"
+       />
+     </div>
+     <div>
+       <img
+         class="gif-img"
+         src="https://www.cafecoffeeday.com/sites/default/files/map-locator.gif"
+       />
+     </div>
+     <div>
+       <img
+         class="gif-img"
+         src="https://www.cafecoffeeday.com/sites/default/files/Shop%20now%20gif%20new.gif"
+       />
+     </div>
+   </div>
+   <!-- <div>
+    <img
+      class="bg"
+      src="https://www.cafecoffeeday.com/sites/default/files/desktop-new%20menu-cafe-coffee-day_1.jpg"
+    />
+  </div> -->
+   
 
-    <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>
-          Welcome to Cafe Day.. Don't just eat it, drink it, slurp it and enjoy
-          it!!!
-        </p>
-      </section>
-
-      <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="menu-item">
-          <h3>Catpuccino</h3>
-          <p>
-            A special blend of coffee served with frothy milk in the shape of a
-            heart.
-          </p>
-        </div>
-        <div class="menu-item">
-          <h3>Meowrito Bowl</h3>
-          <p>
-            A savory bowl filled with rice, beans, veggies, and your choice of
-            protein, topped with a spicy meowrito sauce.
-          </p>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Reach out to us at:</p>
-        <address>
-          Cafe Day<br />
-          Adharwadi Road <br />
-          Kalyan city, Thane <br />
-          Tel: 021-321-202 <br />
-          Email: info@cafeday.com
-        </address>
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2024 Cafe_Day. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+     <section id="menu" style="display: flex; justify-content: space-between;">
+       <button class="button">Hot classics</button>
+       <button class="button">All-Time chillers</button>
+       <button class="button">All-day-delights</button>
+       <button class="button">Sweet Tooth X 32</button>
+       <button class="button">Nutritional Info</button>
+     </section>
+     <section>
+       <div>
+         <img
+           class="bg"
+           src="https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/cafe-menu/desktop/HOT%20CLASSICS.jpg"
+         />
+       </div>
+     </section>
+     
+     <section id="about">
+      <div style="display: flex; justify-content: center; align-items: center; margin: 2% 0 2% 0">
+        <button class="button">Read our story</button>
+      </div>
+      
+       <div class="hero-image"> <img src="/image6-3.jpg" />
+         <div class="hero-text">
+           <h1 style="font-size:50px">Coffee tastes better <br/> With a Dash Of History :)</h1>
+         </div>
+       </div>
+   
+     </section>
+     <!-- https://www.cafecoffeeday.com/about-us -->
+   </div>
+ <section id="contact" class="social-icons">
+   <a href="https://www.instagram.com/cafecoffeeday" target="_blank"  class="fa fa-instagram"></a>
+   <a href="https://www.facebook.com/cafecoffeeday" target="_blank" class="fa fa-facebook"></a>
+   <a href="https://www.youtube.com/user/cafecoffeeday" target="_blank"  class="fa fa-youtube"></a>
+   <a href="https://www.snapchat.com/" target="_blank"  class="fa fa-snapchat-ghost"></a>
+ </section>
+   
+ </main>
+ <div>
+   <hr style="width:80%;text-align:center;margin: 2% 0 0 8%">
+ </div>
+ <footer>
+ sfdd
+ </footer>
+   
+   </section>
+  
+     <!-- <footer>
+       <p>&copy; 2024 Cafe_Day. All rights reserved.</p>
+     </footer> -->
+   </body>
+ </html>
+ 
